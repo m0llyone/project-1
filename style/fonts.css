@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/work-sans-v18-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'work-sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/work-sans-v18-latin-regular.woff') format('woff');
+}

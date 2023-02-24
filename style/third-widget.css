@@ -1,0 +1,67 @@
+.third-widget {
+  background: rgba(0, 161, 198, 0.07);
+}
+.third-widget__wrapper {
+  padding: 108px 0 172px;
+}
+
+.third-widget__title {
+  max-width: 555px;
+  row-gap: 30px;
+  margin: 0 290px 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.third-widget__categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 30px;
+}
+
+.third-widget__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 262px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.third-widget__item:hover {
+  background-color: #3141C5;
+  color: black;
+}
+
+.h5__animation{
+  animation-name: transfering;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes transfering {
+  0% {color: rgb(90, 128, 0); }
+  25%{ color:rgb(255, 230, 0)}
+  50%{color:rgb(255, 136, 0)}
+  100%{ color:rgb(255, 60, 0)}
+}
+
+@media (max-width:800px) {
+  .third-widget__title {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

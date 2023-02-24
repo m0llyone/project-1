@@ -1,0 +1,60 @@
+@import url('reset.css');
+@import url('header.css');
+@import url('first-widget.css');
+@import url('second-widget.css');
+@import url('third-widget.css');
+@import url('fourth-widget.css');
+@import url('fifth-widget.css');
+@import url('footer.css');
+@import url('general.css');
+@import url('burger.css');
+@import url('fonts.css');
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.first-widget__container {
+  max-width: 1225px;
+}
+
+.header__container {
+  max-width: 1225px;
+}
+
+.second-widget__container {
+  max-width: 1073px;
+}
+
+.third-widget__container {
+  max-width: 1140px;
+}
+
+.button {
+  display: inline-block;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #3040C4;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Work Sans';
+  font-size: 18px;
+  line-height: 13px;
+  padding: 17px 28px 17px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #212ea5;
+}
+
+.button_white {
+  background: white;
+  color: #3040C4;
+}
+
+.button_white:hover {
+  background-color: rgb(241, 233, 233);
+}
